@@ -15,9 +15,11 @@ makedocs(;
     pages=[
         "Home" => "index.md",
     ],
+    #checkdocs = :exports,
 )
 
 deploydocs(;
     repo="github.com/Cglezf/MathExprCore.jl",
     devbranch="main",
+    push_preview=true,
 )

@@ -1,9 +1,21 @@
 name = "MathExprCore"
 uuid = "0ce026a0-9851-40ca-ac36-d2cfe0b7fbb8"
-authors = ["Sglez"]
 version = "1.0.0-DEV"
+authors = ["Sglez"]
+
+[deps]
+BenchmarkTools = "6e4b80f9-dd63-53aa-95a3-0cdb28fa8baf"
+Coverage = "a2441757-f6aa-5fb2-8edb-039e3f45d037"
+IJulia = "7073ff75-c697-5162-941a-fcdaad2a7d2a"
+JuliaFormatter = "98e50ef6-434e-11e9-1051-2b60c6c9e899"
+Logging = "56ddb016-857b-54e1-b83d-db4d58db5568"
 
 [compat]
+BenchmarkTools = "1.6.0"
+Coverage = "1.6.1"
+IJulia = "1.29.0"
+JuliaFormatter = "2.1.2"
+Logging = "1.11.0"
 julia = "1.12"
 
 [extras]
