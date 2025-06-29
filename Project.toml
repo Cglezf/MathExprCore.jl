@@ -15,7 +15,7 @@ BenchmarkTools = "1.6.0"
 Coverage = "1.6.1"
 IJulia = "1.29.0"
 JuliaFormatter = "2.1.2"
-Logging = "1.11.0"
+Logging = "1.10.0"
 julia = "1.12"
 
 [extras]
